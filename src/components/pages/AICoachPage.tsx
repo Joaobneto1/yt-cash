@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import { Sparkles, Zap, Target, TrendingUp, Brain, Rocket, Lock, CheckCircle, AlertCircle, Award, Clock, BarChart3 } from 'lucide-react';
-import CoachPro from '../pages/CoachPro';
+import CoachPro from './CoachPro';
 
 export default function AICoachPage() {
   const { userProfile } = useAuth();

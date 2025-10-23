@@ -1,10 +1,10 @@
 import { Zap, Target, TrendingUp, Brain, Rocket, Star, Gift, Trophy } from 'lucide-react';
 
-interface CoachProWelcomeProps {
+interface CoachProProps {  
   onContinue: () => void;
 }
 
-export default function CoachProWelcome({ onContinue }: CoachProWelcomeProps) {
+export default function CoachPro({ onContinue }: CoachProProps) {  
   return (
     <div className="max-w-4xl mx-auto text-center py-12">
       <div className="mb-8">
