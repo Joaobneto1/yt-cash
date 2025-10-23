@@ -55,7 +55,7 @@ export default function AICoachPage() {
     return <CoachPro onContinue={() => setShowWelcome(false)} />;
   }
 
-  // Se não tem acesso, mostra paywall
+  // Se não tem acesso, mostra paywall stripe
   if (!hasAIAccess) {
     return (
       <div className="max-w-6xl mx-auto">
